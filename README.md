@@ -4,7 +4,7 @@ Explores classes, pointers & more...
 
 ### Introduction to Object Oriented Programming (c++)
 ### Unit Testing
-### Pointers, Dynamic Memory and Aggregation
+### Pointers 
 ### Inheritance
 ### Operators 
-
+### Memory Management 
