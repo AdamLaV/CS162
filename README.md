@@ -1,4 +1,4 @@
 # CS162
-Explores classes, pointers & more..
-Coming Winter 2019 
+Explores classes, pointers & more...
+##### Coming Winter 2019 
 
