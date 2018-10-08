@@ -13,3 +13,5 @@ Explores OOP, classes, pointers & more...
 ### Recursion 
 ### Graphical User Interface (GUI)
 ### Standard Template Library (STL)
+
+## Resources
