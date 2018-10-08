@@ -15,6 +15,7 @@ Explores OOP, classes, pointers & more...
 ### Standard Template Library (STL)
 
 ## Resources
+[C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+
 [Thoughts On a More Powerful and Simpler C++](https://www.youtube.com/watch?v=7I-iOf3A4gY)
 
-[C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
