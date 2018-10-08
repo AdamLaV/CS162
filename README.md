@@ -3,7 +3,7 @@ Explores OOP, classes, pointers & more...
 ##### Coming Winter 2019 
 
 ### Introduction to Object Oriented Programming (c++)
-  notes
+    notes
 ### Unit Testing
 ### Pointers 
 ### Inheritance
