@@ -22,4 +22,5 @@ Explores OOP, classes, pointers & more...
 [Thoughts On a More Powerful and Simpler C++](https://www.youtube.com/watch?v=7I-iOf3A4gY)
 
 [Top Ten Tips for Correct C++ Coding](http://www.informit.com/articles/article.aspx?p=1712962)
+[Mike Dane](https://www.mikedane.com/)
 
