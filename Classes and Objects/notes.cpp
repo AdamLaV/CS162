@@ -21,3 +21,14 @@ int main()
 
     return 0;
 }
+
+// What is an boject? -- Bicycle 
+// Has Attributes -- color: black
+//                 -- brand: Globe
+//                 -- price: $50
+
+
+// Has Behaviors 
+//          -- peddle()
+//          -- break()
+//          -- chnageGears()
