@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// a class is anew datatype / a blueprint for a new datatype
+// a class is a datatype or a blueprint for a new datatype
 class Book {
     public:
         string title;
