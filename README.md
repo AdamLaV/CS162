@@ -4,15 +4,15 @@ Explores OOP, classes, pointers & more...
 
 ## Introduction to Object Oriented Programming (c++)
     notes
-### Unit Testing
-### Pointers 
-### Inheritance
-### Operators 
-### Memory Management 
-### Templates
-### Recursion 
-### Graphical User Interface (GUI)
-### Standard Template Library (STL)
+#### Unit Testing
+#### Pointers 
+#### Inheritance
+#### Operators 
+#### Memory Management 
+#### Templates
+#### Recursion 
+#### Graphical User Interface (GUI)
+#### Standard Template Library (STL)
 
 ## Resources
 [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
