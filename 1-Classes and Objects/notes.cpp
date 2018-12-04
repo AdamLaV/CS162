@@ -3,6 +3,7 @@
 using namespace std;
 
 // a class is a datatype or a blueprint for a new datatype
+
 class Book {
     public:
         string title;
