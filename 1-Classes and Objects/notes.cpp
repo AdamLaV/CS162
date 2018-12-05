@@ -32,3 +32,5 @@ int main()
 //          -- peddle()
 //          -- break()
 //          -- chnageGears()
+
+// Constructor: designed to perfrom initializing
