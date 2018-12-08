@@ -83,7 +83,7 @@ bool LittlePersonComputer::isHalted(){
     }
 }
 
-// stept Method
+// step Method
 void LittlePersonComputer::step(){
     while(((!memory[programCounter]) == 000) && (memory[programCounter] > 100)){
         int currentInstruction = memory[programCounter];
