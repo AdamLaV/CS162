@@ -2,7 +2,7 @@
 Explores OOP, classes, pointers & more...
 
 ## Introduction to Object Oriented Programming (c++)
-    notes
+    [project one](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
 #### Unit Testing
 #### Pointers 
 #### Inheritance
