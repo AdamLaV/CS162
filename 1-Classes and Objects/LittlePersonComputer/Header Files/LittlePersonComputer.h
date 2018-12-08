@@ -1,8 +1,3 @@
-/**
-  * @brief Assignment #1 Header
-  * @author Daidemang Francis
-*/
-
 #ifndef LITTLEPERSONCOMPUTER_H
 #define LITTLEPERSONCOMPUTER_H
 const int MEMORYSIZE = 20;
@@ -67,7 +62,7 @@ public:
     /**
      * @brief stept run the next step accourding to the list of machine codes
      */
-    void stept();
+    void step();
 
     /**
      * @brief isHalted
