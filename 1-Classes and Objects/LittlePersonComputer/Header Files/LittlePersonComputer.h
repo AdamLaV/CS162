@@ -41,14 +41,33 @@ public:
     int getCurrentInstruction();
 
     /**
-     * @brief getMemory
-     * @param location
-     * @return
+     * @brief getMemoryAt
+     * @param location the memory location
+     * @return the value of the memory at the indicated location
      */
-    int getMemory(int location);
+    int getMemoryAt(int location);
+
+    /**
+     * @brief loadProgram load instruction array into the memory starting at location 0
+     * @param instructions array of instructions to be added to memory
+     * @param numberOfInstructions total number of instructions
+     */
     void loadProgram(int instructions[], int numberOfInstructions);
+
+    /**
+     * @brief printState print the current state of the computer
+     */
     void printState();
+
+    /**
+     * @brief stept run the next step accourding to the list of machine codes
+     */
     void stept();
+
+    /**
+     * @brief isHalted
+     * @return return true if the current instruction is 0, otherwise false
+     */
     bool isHalted();
 
 private:
