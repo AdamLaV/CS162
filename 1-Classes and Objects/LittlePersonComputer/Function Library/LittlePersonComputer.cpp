@@ -82,3 +82,4 @@ void LittlePersonComputer::step() {
         }
     }
 }
+
