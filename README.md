@@ -1,6 +1,6 @@
 # CS162
 Explores OOP, classes, pointers & more...
-##### Coming Winter 2019 
+##### Second sequence presenting an introduction to computer science, software engineering and programming
 
 ## Introduction to Object Oriented Programming (c++)
     notes
