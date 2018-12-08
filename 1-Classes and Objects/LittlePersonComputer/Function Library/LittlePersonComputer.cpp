@@ -1,8 +1,3 @@
-/**
-  * @brief Assignment #1 Function Library
-  * @author Daidemang Francis
-*/
-
 #include <iostream>
 #include "LittlePersonComputer.h"
 using namespace std;
@@ -48,4 +43,9 @@ void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructi
     for(int i = 0; i < numberOfInstructions; i++) {
         memory[i] = instructions[i];
     }
+}
+
+// printState Method
+void LittlePersonComputer::printState(){
+    
 }
