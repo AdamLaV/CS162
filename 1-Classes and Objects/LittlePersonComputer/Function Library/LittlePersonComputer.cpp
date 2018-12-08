@@ -1,5 +1,5 @@
 /**
-  * @brief Assignment #1
+  * @brief Assignment #1 Function Library
   * @author Daidemang Francis
 */
 
