@@ -5,7 +5,7 @@ Explores OOP, classes, pointers & more...
   
     
     covers classes & data types in C++
-    Construct, UML class diagrams & design principles
+    construct, UML class diagrams & design principles
 
   
 [project one - Little Person Computer](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
