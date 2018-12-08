@@ -40,6 +40,7 @@ int LittlePersonComputer::getCurrentInstruction(){
 
 // loadProgram Method
 void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructions){
-
+    for(int i = 0; i < numberOfInstructions; i++) {
+        memory[i] = instructions[i];
+    }
 }
-
