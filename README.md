@@ -1,6 +1,5 @@
 # CS162
 Explores OOP, classes, pointers & more...
-##### Second sequence presenting an introduction to computer science, software engineering and programming
 
 ## Introduction to Object Oriented Programming (c++)
     notes
