@@ -49,6 +49,9 @@ void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructi
     for(int i = 0; i < numberOfInstructions; i++) {
         memory[i] = instructions[i];
     }
+
+    //programCounter = 0;
+    accumulator = memory[0];
 }
 
 // printState Method
@@ -56,30 +59,96 @@ void LittlePersonComputer::printState(){
     cout << "Accumulator : " << accumulator << setw(20) << "Program Counter : " << programCounter << "\n"
          << "Memory: "<< endl;
 
-    for(int i = 0; i < MEMORYSIZE; i++) {
-        cout << i << "    ";
+    for (int i = 0; i < MEMORYSIZE; i++){
+        cout << i << setw(4);
     }
-    cout << "\n";
+
+    cout<<"\n";
 
     for(int i = 0; i < MEMORYSIZE; i++){
-       cout << memory[i] << "    ";
+        cout << memory[i] << setw(4);
     }
-    cout << endl;
 
+    cout << endl;
 }
 
 // isHalted Method
 bool LittlePersonComputer::isHalted(){
-    return true;
-}
-
-// stept Method
-void LittlePersonComputer::step() {
-    for(int i = 0; i < MEMORYSIZE; i++) {
-        // end program
-        if(memory[i] == 000) {
-            break;
-        }
+    int currentStats = programCounter;
+    if (memory[currentStats] == 0){
+        return true;
+    }
+    else{
+        return false;
     }
 }
 
+// stept Method
+void LittlePersonComputer::step(){
+    while(((!memory[programCounter]) == 000) && (memory[programCounter] > 100)){
+        int currentInstruction = memory[programCounter];
+
+         // add
+        if (currentInstruction - 100 < 100){
+            accumulator = accumulator + memory[(currentInstruction - 100)];
+        }
+
+        // subtract
+        else if (currentInstruction >= 200 && currentInstruction < 220){
+                accumulator = accumulator - memory[(currentInstruction - 200)];
+
+        }
+
+        // store
+        else if (currentInstruction >= 300 && currentInstruction < 320){
+            memory[currentInstruction - 300] = accumulator;
+
+        }
+
+        // load
+        else if (currentInstruction >= 500 && currentInstruction < 520){
+            accumulator = memory[currentInstruction - 500];
+
+        }
+
+        // branch aways
+        else if (currentInstruction >= 600 && currentInstruction < 620){
+            programCounter = currentInstruction - 601;
+            currentInstruction = memory[currentInstruction - 600];
+
+        }
+
+        // branch if 0
+        else if (currentInstruction >= 700 && currentInstruction < 720){
+            if(accumulator == 0){
+                programCounter = currentInstruction - 701;
+                currentInstruction = memory[currentInstruction - 700];
+
+            }
+
+        }
+
+        // branch if >= 0
+        else if (currentInstruction >= 800 && currentInstruction < 820){
+            if(accumulator >= 0){
+                programCounter = currentInstruction - 801;
+                currentInstruction = memory[currentInstruction - 800];
+            }
+        }
+
+        // input
+        else if (currentInstruction == 901){
+            cout<<"enter input: " << endl;
+            int input;
+            cin >> input;
+            accumulator = input;
+        }
+
+        // output
+        else if (currentInstruction == 902) {
+            cout <<"Output: "<< accumulator << endl;
+        }
+
+        programCounter++;
+    }
+}
