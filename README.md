@@ -3,6 +3,7 @@ Explores OOP, classes, pointers & more...
 
 #### 1 - Introduction to Object Oriented Programming (c++)
 [project one - Little Person Computer](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
+## ------------------------------------------------------------
 
 #### Unit Testing
 #### Pointers 
