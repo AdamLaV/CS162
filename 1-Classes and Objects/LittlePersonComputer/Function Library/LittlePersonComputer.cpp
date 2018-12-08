@@ -42,3 +42,4 @@ int LittlePersonComputer::getCurrentInstruction(){
 void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructions){
 
 }
+
