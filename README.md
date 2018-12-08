@@ -4,7 +4,7 @@ Explores OOP, classes, pointers & more...
 #### 1 - Introduction to Object Oriented Programming (c++)
   
     
-    covers classes to & data types in C++
+    covers classes & data types in C++
     Construct, UML class diagrams & design principles
 
   
