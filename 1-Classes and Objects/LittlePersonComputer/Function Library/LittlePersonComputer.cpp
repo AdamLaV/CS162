@@ -1,3 +1,8 @@
+/**
+  * @brief Assignment #1 Function Library
+  * @author Daidemang Francis
+*/
+
 #include <iostream>
 #include "LittlePersonComputer.h"
 using namespace std;
