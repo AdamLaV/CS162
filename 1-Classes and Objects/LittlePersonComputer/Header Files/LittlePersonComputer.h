@@ -1,3 +1,8 @@
+/**
+  * @brief Assignment #1 Header
+  * @author Daidemang Francis
+*/
+
 #ifndef LITTLEPERSONCOMPUTER_H
 #define LITTLEPERSONCOMPUTER_H
 const int MEMORYSIZE = 20;
