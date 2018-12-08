@@ -39,6 +39,11 @@ int LittlePersonComputer::getCurrentInstruction(){
     return memory[programCounter];
 }
 
+// getMemoryAt Method
+int LittlePersonComputer::getMemoryAt(int location){
+    return memory[location];
+}
+
 // loadProgram Method
 void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructions){
     for(int i = 0; i < numberOfInstructions; i++) {
@@ -52,12 +57,12 @@ void LittlePersonComputer::printState(){
          << "Memory: "<< endl;
 
     for(int i = 0; i < MEMORYSIZE; i++) {
-        cout << i << "      ";
+        cout << i << "    ";
     }
     cout << "\n";
 
     for(int i = 0; i < MEMORYSIZE; i++){
-       cout << memory[i] << "      ";
+       cout << memory[i] << "    ";
     }
     cout << endl;
 
@@ -66,4 +71,14 @@ void LittlePersonComputer::printState(){
 // isHalted Method
 bool LittlePersonComputer::isHalted(){
     return true;
+}
+
+// stept Method
+void LittlePersonComputer::step() {
+    for(int i = 0; i < MEMORYSIZE; i++) {
+        // end program
+        if(memory[i] == 000) {
+            break;
+        }
+    }
 }
