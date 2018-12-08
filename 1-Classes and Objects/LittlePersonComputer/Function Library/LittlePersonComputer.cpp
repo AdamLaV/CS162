@@ -7,6 +7,7 @@ LittlePersonComputer::LittlePersonComputer(){
     for(int i = 0; i < MEMORYSIZE; i++) {
         memory[i] = 0;
     }
+
     accumulator = 0;
     programCounter = 0;
 }
@@ -19,5 +20,25 @@ LittlePersonComputer::LittlePersonComputer(int instructions[], int numberOfInstr
     for(int i = 0; i < numberOfInstructions; i++){
         memory[i] = instructions[i];
     }
+
+}
+
+// getProgramCounter Method
+int LittlePersonComputer::getProgramCounter() {
+    return programCounter;
+}
+
+// getAccumulator Method
+int LittlePersonComputer::getAccumulator() {
+    return accumulator;
+}
+
+// getCurrentInstruction Method
+int LittlePersonComputer::getCurrentInstruction(){
+    return memory[programCounter];
+}
+
+// loadProgram Method
+void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructions){
 
 }
