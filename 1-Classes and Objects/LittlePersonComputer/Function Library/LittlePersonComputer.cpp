@@ -1,9 +1,5 @@
-/**
-  * @brief Assignment #1 Function Library
-  * @author Daidemang Francis
-*/
-
 #include <iostream>
+#include <iomanip>
 #include "LittlePersonComputer.h"
 using namespace std;
 
@@ -52,5 +48,22 @@ void LittlePersonComputer::loadProgram(int instructions[], int numberOfInstructi
 
 // printState Method
 void LittlePersonComputer::printState(){
-    
+    cout << "Accumulator : " << accumulator << setw(20) << "Program Counter : " << programCounter << "\n"
+         << "Memory: "<< endl;
+
+    for(int i = 0; i < MEMORYSIZE; i++) {
+        cout << i << "      ";
+    }
+    cout << "\n";
+
+    for(int i = 0; i < MEMORYSIZE; i++){
+       cout << memory[i] << "      ";
+    }
+    cout << endl;
+
+}
+
+// isHalted Method
+bool LittlePersonComputer::isHalted(){
+    return true;
 }
