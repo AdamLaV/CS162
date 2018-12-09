@@ -1,3 +1,7 @@
+/**
+  * @brief Assignment 1
+  * @author Daidemang Francis
+*/
 #include <iostream>
 #include <iomanip>
 #include "LittlePersonComputer.h"
