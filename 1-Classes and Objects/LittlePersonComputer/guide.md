@@ -1,20 +1,6 @@
-# General
-
-## Submit this assignment using the elearn system by midnight of the due date.
-
-##  Use the Attach File tool to attach the files with your solution. Read each problem carefully to see
-
-## what the files you need to submit are.
-
-# Concepts
-
-## Upon completion of this lab the student will be able to create classes to represent complex data types.
-
 # Assignment Instructions
 
 ## Submit files: LittlePersonComputer.h / LittlePersonComputer.cpp
-
-## DO NOT turn in main.cpp. I will use my own to test the program.
 
 ## For this assignment, you are going to implement a version of the Little Man Computer (if you did not take
 
@@ -35,25 +21,6 @@
 ## UML diagram below shows exactly what you are implementing.
 
 ## The LittlePersonComputer.h file should have Doxygen comments for the class and for each public
-
-## member of the class.
-
-### Class names, function
-
-### names and parameters
-
-### are EXACTLY what I
-
-### specify. Capitalization
-
-### and spelling count!
-
-### File names must be
-
-### exactly these 
-
-### Capitalization counts!
-
 
 ## Here are what the various methods should do:
 
