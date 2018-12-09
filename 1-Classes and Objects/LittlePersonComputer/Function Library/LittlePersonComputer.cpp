@@ -128,7 +128,7 @@ void LittlePersonComputer::step(){
 
         }
 
-        // branch if >= 0
+        // branch if >= 0 
         else if (currentInstruction >= 800 && currentInstruction < 820){
             if(accumulator >= 0){
                 programCounter = currentInstruction - 801;
