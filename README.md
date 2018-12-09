@@ -27,8 +27,6 @@ Explores OOP, classes, pointers & more...
 
 [CS50 - 2018](https://www.youtube.com/watch?v=5azaK2cBKGw&list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH)
 
-[Thoughts On a More Powerful and Simpler C++](https://www.youtube.com/watch?v=7I-iOf3A4gY)
-
 [Top Ten Tips for Correct C++ Coding](http://www.informit.com/articles/article.aspx?p=1712962)
 
 [Mike Dane](https://www.mikedane.com/)
