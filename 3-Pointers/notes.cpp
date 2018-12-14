@@ -20,3 +20,6 @@ int main()
 }
 
 
+// typedef and pointers
+typedef int* intPointers;
+
