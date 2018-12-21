@@ -10,7 +10,7 @@ Explores OOP, classes, pointers & more...
   
 [project one - Little Person Computer](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
  
-## ------------------------------------------------------------
+## ----------------
 
 #### Unit Testing
 #### Pointers 
