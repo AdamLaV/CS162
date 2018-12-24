@@ -19,5 +19,8 @@ TEST_CASE( "UniqueMachineName" ) {
         REQUIRE( c1.getY() == 0 );
         REQUIRE( c1.getRadius() == 3.3 );
         
+        circle c2(-4); //test negative value - should be made positive
+        REQUIRE( c2.getRadius() == 4 );
+        
     }
     
