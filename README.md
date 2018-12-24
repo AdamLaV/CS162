@@ -13,6 +13,9 @@ Explores OOP, classes, pointers & more...
 ## --------------------------------------------------------------------
 
 #### Unit Testing
+
+    covers unit testing, documentation & composition
+    
 #### Pointers 
 #### Inheritance
 #### Operators 
