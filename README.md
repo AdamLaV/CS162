@@ -16,6 +16,8 @@ Explores OOP, classes, pointers & more...
 
     covers unit testing, documentation & composition
     
+[Project two - Rectangle](https://github.com/francisknight/CS162/blob/master/2-Unit%20Testing/UnitTestSetup.docx)
+    
 #### Pointers 
 #### Inheritance
 #### Operators 
