@@ -24,3 +24,12 @@ TEST_CASE( "UniqueMachineName" ) {
         
     }
     
+// what to test
+    // test public interface
+    // test every method/construct 
+    
+
+// pattern
+    // Make an object 
+    // call function to be tested
+    // Reqiure corret data
