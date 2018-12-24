@@ -13,3 +13,11 @@ TEST_CASE( "UniqueMachineName" ) {
     REQUIRE( c1.getRadius() == 2 );
 }
     
+    TEST_CASE( "Circle/1-arg-constructor" ) {
+        Circle c1(3.3);
+        REQUIRE( c1.getX() == 0 );
+        REQUIRE( c1.getY() == 0 );
+        REQUIRE( c1.getRadius() == 3.3 );
+        
+    }
+    
