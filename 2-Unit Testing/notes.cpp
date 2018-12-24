@@ -12,3 +12,4 @@ TEST_CASE( "UniqueMachineName" ) {
     REQUIRE( c1.getY() == 0 );
     REQUIRE( c1.getRadius() == 2 );
 }
+    
