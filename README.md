@@ -21,7 +21,7 @@ Explores OOP, classes, pointers & more...
 ## --------------------------------------------------------------------
 
     
-#### Pointers 
+#### 3 - Pointers 
 #### Inheritance
 #### Operators 
 #### Memory Management 
