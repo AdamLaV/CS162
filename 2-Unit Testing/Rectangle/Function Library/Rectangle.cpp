@@ -10,14 +10,14 @@ using namespace std;
 #include "Rectangle.h"
 
 
-// rectangle constructor - 1
+// rectangle constructor
 Rectangle::Rectangle(Point& p1, double heightValue, double widthValue) {
     upperLeftVertex = p1;
     height = heightValue;
     width = widthValue;
 }
 
-// rectangle constructor - 2
+// rectangle constructor
 Rectangle::Rectangle(Point& p1, Point& p2) {
     upperLeftVertex = p1;
     height = abs(p1.getY() - p2.getY());
@@ -62,4 +62,14 @@ Point Rectangle::getCenter() {
 void Rectangle::shift(double x, double y) {
     height = height + x;
     width = width + y;
+}
+
+// constains method
+bool Rectangle::constains(Point& p) {
+    double x = p.getX();
+    double y = p.getY();
+
+    if(p == x || p == y) {
+        return true;
+    }
 }
