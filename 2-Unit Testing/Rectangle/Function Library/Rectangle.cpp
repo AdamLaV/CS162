@@ -1,7 +1,3 @@
-/**
-  * @brief Assignment 2
-  * @author Daidemang Francis
-*/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -65,11 +61,20 @@ void Rectangle::shift(double x, double y) {
 }
 
 // constains method
-bool Rectangle::constains(Point& p) {
-    double x = p.getX();
-    double y = p.getY();
+//bool Rectangle::constains(Point& p) {
+////    double pointX = x;
+////	double pointY = y;
+////        // This is the piece of code I found
+////	if (pointX >= this->x && pointX <= this->x + this->width &&
+////pointY >= this->y && pointY <= this->y + this->height)
+////		return true;
+////	else
+////		return false;
 
-    if(p == x || p == y) {
-        return true;
-    }
-}
+//    double x = p.getX();
+//    double y = p.getX();
+
+
+
+
+//}
