@@ -8,7 +8,7 @@ Explores OOP, classes, pointers & more...
     construct, UML class diagrams & design principles
 
   
-[project one - Little Person Computer](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
+[project one - Little Person Computer 🔥](https://github.com/francisknight/CS162/tree/master/1-Classes%20and%20Objects/LittlePersonComputer)
  
 ## --------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ Explores OOP, classes, pointers & more...
 
     covers unit testing, documentation & composition
     
-[project two - Rectangle On A Cartesian Plane](https://github.com/francisknight/CS162/tree/master/2-Unit%20Testing/Rectangle)
+[project two - Rectangle On A Cartesian Plane 🔥](https://github.com/francisknight/CS162/tree/master/2-Unit%20Testing/Rectangle)
 
 ## --------------------------------------------------------------------
 
