@@ -15,7 +15,7 @@ public:
      * @param p1 upperleft corner
      * @param p2 lowerleft corner
      */
-    Rectangle(Point p1, Point p2);
+    Rectangle(Point& p1, Point& p2);
 
     /**
      * @brief Rectangle constructor rectangle using given points as upper lef
@@ -24,26 +24,26 @@ public:
      * @param heightValue indicated height
      * @param widthValue indicated width
      */
-    Rectangle(Point p1, double heightValue, double widthValue);
+    Rectangle(Point& p1, double heightValue, double widthValue);
 
     /**
      * @brief getUpperLeftVertex
      * @return return point representing location of the upper left vertext
      * of the rectangle
      */
-    Point getUpperLeftVertex();
+    Point getUpperLeftVertex()const;
 
     /**
      * @brief getWidth
      * @return return width value
      */
-    double getWidth();
+    double getWidth()const;
 
     /**
      * @brief getHeight
      * @return return height value
      */
-    double getHeight();
+    double getHeight()const;
 
     /**
      * @brief getArea
@@ -84,4 +84,3 @@ private:
 };
 
 #endif // RECTANGLE_H
-
