@@ -12,3 +12,4 @@ TEST_CASE( "SAMPLE/test post-increment" ) {
     //Make sure that x really equals 2
     REQUIRE( x == 2 );
 }
+
