@@ -1,7 +1,3 @@
-/**
-  * @brief Assignment 2
-  * @author Daidemang Francis
-*/
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 #include <iostream>
