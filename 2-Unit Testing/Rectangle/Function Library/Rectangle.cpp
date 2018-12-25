@@ -10,7 +10,7 @@ using namespace std;
 #include "Rectangle.h"
 
 
-// rectangle constructor
+// rectangle constructor - 1
 Rectangle::Rectangle(Point& p1, double heightValue, double widthValue) {
     upperLeftVertex = p1;
     height = heightValue;
