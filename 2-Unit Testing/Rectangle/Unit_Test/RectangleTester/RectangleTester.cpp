@@ -1,8 +1,9 @@
-
 //Bring in unit testing code
 #include "catch.hpp"
 
 //Include your .h files
+#include "Rectangle.h"
+#include "Point.h"
 
 TEST_CASE( "SAMPLE/test post-increment" ) {
 
@@ -12,4 +13,3 @@ TEST_CASE( "SAMPLE/test post-increment" ) {
     //Make sure that x really equals 2
     REQUIRE( x == 2 );
 }
-
