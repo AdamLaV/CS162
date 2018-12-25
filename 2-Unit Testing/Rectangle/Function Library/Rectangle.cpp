@@ -1,3 +1,7 @@
+/**
+  * @brief Assignment 2
+  * @author Daidemang Francis
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;
