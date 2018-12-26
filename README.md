@@ -22,6 +22,9 @@ Explores OOP, classes, pointers & more...
 
     
 #### 3 - Pointers 
+
+     covers pointers, dynamic memory & aggregation
+     
 #### Inheritance
 #### Operators 
 #### Memory Management 
