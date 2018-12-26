@@ -26,3 +26,5 @@ int main()
          << letter << " is at location " << pLetter << endl;
 }
 
+// Aggregation
+
