@@ -70,7 +70,6 @@ void Rectangle::shift(double x, double y) {
 ////		return true;
 ////	else
 ////		return false;
-
 //    double x = p.getX();
 //    double y = p.getX();
 
