@@ -1,3 +1,4 @@
+
 //Bring in unit testing code
 #include "catch.hpp"
 
@@ -17,7 +18,6 @@ TEST_CASE( "Rectangle/Constructor1", "3 argument constructor" ) {
     Rectangle r1(p1, 2, 4);
     Point temp = r1.getUpperLeftVertex();
     REQUIRE( temp.isSameAs(p1) == true);
-
 }
 
 TEST_CASE( "Rectangle/Constructor2","2 argument constructor"  ) {
@@ -45,3 +45,6 @@ TEST_CASE ( "Rectangle/getArea method") {
     REQUIRE(r2.getWidth() * r2.getHeight() == Approx(20));
 }
 
+TEST_CASE ( "Rectangle/getPerimeter method") {
+     REQUIRE((r2.getWidth() + r2.getHeight()) * 2 == Approx(18));
+}
