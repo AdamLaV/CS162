@@ -6,11 +6,11 @@ using namespace std;
 int main()
 { 
     // normal varibles
-    int count = 5, count2 = 10;
+    int count1 = 5, count2 = 10;
     char letter = 'A';
 
     // pointer variable
-    int* pCount;
+    int* pCount1;
     int* pCount2;
     char* pLetter;
 
