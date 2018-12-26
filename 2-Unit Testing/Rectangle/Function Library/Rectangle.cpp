@@ -75,5 +75,4 @@ void Rectangle::shift(double x, double y) {
 
 
 
-
 //}
