@@ -24,6 +24,8 @@ Explores OOP, classes, pointers & more...
 #### 3 - Pointers 
 
      covers pointers, dynamic memory & aggregation
+ 
+[project three - PageRank](https://en.wikipedia.org/wiki/PageRank)
      
 #### Inheritance
 #### Operators 
