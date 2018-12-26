@@ -1,3 +1,4 @@
+
 //Bring in unit testing code
 #include "catch.hpp"
 
@@ -46,4 +47,8 @@ TEST_CASE ( "Rectangle/getArea method") {
 
 TEST_CASE ( "Rectangle/getPerimeter method") {
      REQUIRE((r2.getWidth() + r2.getHeight()) * 2 == Approx(18));
+}
+
+TEST_CASE ( "Rectangle/getCenter") {
+    
 }
