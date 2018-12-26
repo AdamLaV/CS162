@@ -48,6 +48,17 @@ TEST_CASE ( "Rectangle/getPerimeter method") {
      REQUIRE((r2.getWidth() + r2.getHeight()) * 2 == Approx(18));
 }
 
-TEST_CASE ( "Rectangle/getCenter") {
-    
+//TEST_CASE ( "Rectangle/getCenter") {
+//    Point p3;
+//    p3.getX();
+//    p3.getY();
+
+//    REQUIRE(p3.;
+//}
+
+TEST_CASE ( "Rectangle/shift method") {
+    r2.shift(2.2, 4.2);
+    REQUIRE(r2.getHeight() == Approx(6.2));
+    REQUIRE(r2.getWidth() == Approx(9.2));
 }
+
