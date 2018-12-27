@@ -25,7 +25,7 @@ Explores OOP, classes, pointers & more...
 
      covers pointers, dynamic memory & aggregation
  
-[project three - PageRank ☠️](https://en.wikipedia.org/wiki/PageRank)
+[project three - PageRank ☠️](https://github.com/francisknight/CS162/tree/master/3-Pointers/PageRank)
 
 ## --------------------------------------------------------------------
      
