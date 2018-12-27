@@ -16,7 +16,7 @@ Explores OOP, classes, pointers & more...
 
     covers unit testing, documentation & composition
     
-[project two - Rectangle On A Cartesian Plane 🔥](https://github.com/francisknight/CS162/tree/master/2-Unit%20Testing/Rectangle)
+[project two - Rectangle On A Cartesian Plane 🤧](https://github.com/francisknight/CS162/tree/master/2-Unit%20Testing/Rectangle)
 
 ## --------------------------------------------------------------------
 
