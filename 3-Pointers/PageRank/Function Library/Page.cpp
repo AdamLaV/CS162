@@ -13,6 +13,7 @@ Page::Page() {
     }
 }
 
+// constructor with one argument
 Page::Page(string urlValue) {
     this->url = urlValue;
     this->visits = 0;
