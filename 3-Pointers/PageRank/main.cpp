@@ -35,4 +35,3 @@ int main()
     cout << page1.getURL() << "\n" << page1.getNumLinks()
          << "\n" << page1.getNumVisits() << endl;
 }
-
