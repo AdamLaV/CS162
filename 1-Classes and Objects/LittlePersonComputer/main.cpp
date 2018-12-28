@@ -1,3 +1,7 @@
+/**
+  * @brief Assignment 1
+  * @author Daidemang Francis
+*/
 #include <iostream>
 #include "LittlePersonComputer.h"
 using namespace std;
