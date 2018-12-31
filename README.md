@@ -29,7 +29,7 @@ Explores OOP, classes, pointers & more...
 
 ## --------------------------------------------------------------------
      
-#### 4 - Inheritance (Week Four)
+#### 4 - Inheritance (Week 4)
 
     covers the three pillas of object-oriented programming:
     1 - Encapsulation
