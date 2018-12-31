@@ -12,7 +12,7 @@ Explores OOP, classes, pointers & more...
  
 ## --------------------------------------------------------------------
 
-#### 2 - Unit Testing (Week Two)
+#### 2 - Unit Testing (Week 2)
 
     covers unit testing, documentation & composition
     
@@ -21,7 +21,7 @@ Explores OOP, classes, pointers & more...
 ## --------------------------------------------------------------------
 
     
-#### 3 - Pointers (Week Three)
+#### 3 - Pointers (Week 3)
 
      covers pointers, dynamic memory & aggregation
  
