@@ -32,7 +32,8 @@ Explores OOP, classes, pointers & more...
 #### 4 - Inheritance (Week Four)
 
     covers the three pillas of object-oriented programming
-    1 - Encapsulation
+    1 - Encapsulation [project three - PageRank 😬](https://github.com/francisknight/CS162/tree/master/3-Pointers/PageRank)
+
     2 - Inheritance
     3 - Polymorphism
     
