@@ -31,7 +31,7 @@ Explores OOP, classes, pointers & more...
      
 #### 4 - Inheritance (Week Four)
 
-    covers the three pillas of object-oriented programming
+    covers the three pillas of object-oriented programming:
     1 - Encapsulation
     2 - Inheritance
     3 - Polymorphism
