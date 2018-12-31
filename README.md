@@ -1,7 +1,7 @@
 # CS162
 Explores OOP, classes, pointers & more...
 
-#### 1 - Introduction to Object Oriented Programming (c++)
+#### 1 - Introduction to Object Oriented Programming (Week 1)
   
     
     covers classes & data types in C++
@@ -12,7 +12,7 @@ Explores OOP, classes, pointers & more...
  
 ## --------------------------------------------------------------------
 
-#### 2 - Unit Testing
+#### 2 - Unit Testing (Week Two)
 
     covers unit testing, documentation & composition
     
@@ -21,7 +21,7 @@ Explores OOP, classes, pointers & more...
 ## --------------------------------------------------------------------
 
     
-#### 3 - Pointers 
+#### 3 - Pointers (Week Three)
 
      covers pointers, dynamic memory & aggregation
  
@@ -29,7 +29,13 @@ Explores OOP, classes, pointers & more...
 
 ## --------------------------------------------------------------------
      
-#### 4 - Inheritance
+#### 4 - Inheritance (Week Four)
+
+    covers the three pillas of object-oriented programming
+    1 - Encapsulation
+    2 - Inheritance
+    3 - Polymorphism
+    
 #### Operators 
 #### Memory Management 
 #### Templates
