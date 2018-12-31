@@ -29,7 +29,7 @@ Explores OOP, classes, pointers & more...
 
 ## --------------------------------------------------------------------
      
-#### Inheritance
+#### 4 - Inheritance
 #### Operators 
 #### Memory Management 
 #### Templates
