@@ -22,6 +22,7 @@ int Weapon::getRange() {
     return 0;
 }
 
+// use method
 int Weapon::use(int rangeToTarget) {
     int range = getRange();
     int damageDone = 0;
