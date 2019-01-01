@@ -17,6 +17,7 @@ string Weapon::toString() {
     return this->getName() + " (value: " + to_string(this->getValue()) + ") Damage: " + to_string(this->getDamage());
 }
 
+// getRange Method
 int Weapon::getRange() {
     return 0;
 }
