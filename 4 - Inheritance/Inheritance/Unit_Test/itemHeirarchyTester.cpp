@@ -1,5 +1,5 @@
 /**
-  Runs tests on everything but Character
+  test for part one
   */
 
 //Bring in unit testing code
