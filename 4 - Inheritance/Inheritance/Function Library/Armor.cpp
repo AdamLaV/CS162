@@ -1,7 +1,8 @@
-#include "Armor.h"
 #include <iostream>
 #include <string>
 using namespace std;
+
+#include "Armor.h"
 
 // Armor default constructor
 Armor::Armor(const string& name, int protectionValue, int cost) :Item(name, cost) {
