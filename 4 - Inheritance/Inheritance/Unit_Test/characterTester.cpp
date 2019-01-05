@@ -1,8 +1,4 @@
-/**
-  * Tests Character - do not use until Armor and Weapon are working.
-  */
 
-//Bring in unit testing code
 #include "catch.hpp"
 
 #include <iostream>
