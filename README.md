@@ -36,7 +36,7 @@ Explores OOP, classes, pointers & more...
     2 - Inheritance
     3 - Polymorphism
 
-[project four - Computer Game 🤨](https://github.com/francisknight/CS162/tree/master/4%20-%20Inheritance/Inheritance)
+[project four - Computer Game Part 1](https://github.com/francisknight/CS162/tree/master/4%20-%20Inheritance/Inheritance)
 
 ## --------------------------------------------------------------------
 
