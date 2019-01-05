@@ -1,5 +1,4 @@
 
-//Bring in unit testing code
 #include "catch.hpp"
 
 #include <iostream>
