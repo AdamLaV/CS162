@@ -1,6 +1,3 @@
-/**
-  test for part one
-  */
 
 //Bring in unit testing code
 #include "catch.hpp"
