@@ -1,9 +1,10 @@
 #ifndef ARMOR_H
 #define ARMOR_H
-#include "Item.h"
 #include <iostream>
 #include <string>
 using namespace std;
+
+#include "Item.h"
 
 /**
  * @brief The Armor class represents a piece of armor a character can wear
