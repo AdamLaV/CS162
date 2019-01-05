@@ -1,9 +1,10 @@
 #ifndef RANGEDWEAPON_H
 #define RANGEDWEAPON_H
-#include "Weapon.h"
 #include <iostream>
 #include <string>
 using namespace std;
+
+#include "Weapon.h"
 
 /**
  * @brief The RangedWeapon class represents a weapon which can attack at a longer range
