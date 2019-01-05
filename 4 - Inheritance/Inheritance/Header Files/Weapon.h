@@ -1,7 +1,8 @@
-#include "Weapon.h"
 #include <iostream>
 #include <string>
 using namespace std;
+
+#include "Weapon.h"
 
 // default constructor
 Weapon::Weapon(string name, int damageValue, int cost) : Item(name, cost) {
