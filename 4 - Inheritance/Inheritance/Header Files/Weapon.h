@@ -1,9 +1,10 @@
 #ifndef WEAPON_H
 #define WEAPON_H
-#include "Item.h"
 #include <iostream>
 #include <string>
 using namespace std;
+
+#include "Item.h"
 
 class Weapon: public Item {
 public:
