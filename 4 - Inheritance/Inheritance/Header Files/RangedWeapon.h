@@ -14,14 +14,26 @@ class RangedWeapon: public Weapon, public Item {
 public:
 
     /**
-     * @brief RangedWeapon
-     * @param name
-     * @param damageValue
-     * @param rangeValue
-     * @param ammoValue
-     * @param cost
+     * @brief RangedWeapon default constructor
+     * @param name of weapon
+     * @param damageValue of weapon
+     * @param rangeValue of weapon
+     * @param ammoValue for weapon
+     * @param cost of the weapon
      */
     RangedWeapon(string name, int damageValue, int rangeValue, int ammoValue, int cost);
+
+    /**
+     * @brief toString
+     * @return returns a string format that represents RangedWeapon
+     */
+    virtual string toString();
+
+    /**
+     * @brief getRange
+     * @return
+     */
+    virtual int getRange();
 
 };
 
