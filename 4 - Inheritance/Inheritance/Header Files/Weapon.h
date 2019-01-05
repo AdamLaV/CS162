@@ -1,38 +1,48 @@
+#ifndef WEAPON_H
+#define WEAPON_H
+#include "Item.h"
 #include <iostream>
 #include <string>
 using namespace std;
 
-#include "Weapon.h"
+class Weapon: public Item {
+public:
 
-// default constructor
-Weapon::Weapon(string name, int damageValue, int cost) : Item(name, cost) {
-    this->damage = damageValue;
-}
+    /**
+     * @brief Weapon default constructor
+     * @param name of weapon
+     * @param damageValue of weapon
+     * @param cost of the weapon
+     */
+    Weapon(string name, int damageValue, int cost);
 
-int Weapon::getDamage() {
-    return this->damage;
-}
+    /**
+     * @brief toString
+     * @return returns a string format describing weapon
+     */
+    virtual string toString();
 
-// toString method
-string Weapon::toString() {
-    return this->getName() + " (value: " + to_string(this->getValue()) + ") Damage: " + to_string(this->getDamage());
-}
+    /**
+     * @brief getDamage
+     * @return returns damage value
+     */
+    int getDamage();
 
-int Weapon::getRange() {
-    return 0;
-}
+    /**
+     * @brief getRange
+     * @return returns the range value
+     */
+    virtual int getRange();
 
-int Weapon::use(int rangeToTarget) {
-    int range = getRange();
-    int damageDone = 0;
-    if(rangeToTarget < range) {
-        damageDone = getDamage();
-    }
-    else if (rangeToTarget >= range) {
-        damageDone = getDamage();
-        damageDone -= rangeToTarget;
-        if(damageDone < 0) damageDone = 0;
-    }
+    /**
+     * @brief use if target is out of range damage is done, else no damage
+     * @param rangeToTarget
+     * @return returns damage an attack will do
+     */
+    virtual int use(int rangeToTarget);
 
-    return damageDone;
-}
+private:
+    int damage;
+};
+
+#endif // WEAPON_H
