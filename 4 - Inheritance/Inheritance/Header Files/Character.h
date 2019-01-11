@@ -2,7 +2,6 @@
 #define CHARACTER_H
 
 #include <string>
-
 #include "Item.h"
 #include "Armor.h"
 #include "Weapon.h"
