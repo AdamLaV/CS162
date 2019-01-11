@@ -92,3 +92,4 @@ private:
 };
 
 #endif // CHARACTER_H
+
