@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 Character::Character(const std::string& nameVal)
 {
     name = nameVal;
