@@ -13,7 +13,7 @@ Rectangle::Rectangle(Point& p1, double heightValue, double widthValue) {
     width = widthValue;
 }
 
-// rectangle constructor
+// rectangle constructor with 2 arg
 Rectangle::Rectangle(Point& p1, Point& p2) {
     upperLeftVertex = p1;
     height = abs(p1.getY() - p2.getY());
