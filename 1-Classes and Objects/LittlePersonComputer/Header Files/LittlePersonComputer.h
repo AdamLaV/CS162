@@ -80,4 +80,5 @@ private:
     int accumulator;
     int programCounter;
 };
+
 #endif // LITTLEPERSONCOMPUTER_H
