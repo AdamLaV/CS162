@@ -2,6 +2,7 @@
   * @brief Assignment 1
   * @author Daidemang Francis
 */
+
 #ifndef LITTLEPERSONCOMPUTER_H
 #define LITTLEPERSONCOMPUTER_H
 const int MEMORYSIZE = 20;
