@@ -13,66 +13,65 @@ Rectangle::Rectangle(Point& p1, double heightValue, double widthValue) {
     width = widthValue;
 }
 
-// rectangle constructor with 2 arg
+// rectangle constructor
 Rectangle::Rectangle(Point& p1, Point& p2) {
     upperLeftVertex = p1;
     height = abs(p1.getY() - p2.getY());
     width = abs(p1.getX() - p2.getX());
 }
 
-// getUpperLeftVertex method
+// Member functions definitions
+// getUpperLeftVertex
 Point Rectangle::getUpperLeftVertex()const {
     return upperLeftVertex;
 }
 
-// getWidth method
+// getWidth
 double Rectangle::getWidth()const {
     return width;
 }
 
-// getHeight method
+// getHeight
 double Rectangle::getHeight()const {
     return height;
 }
 
-// getArea method
+// getArea
 double Rectangle::getArea() {
     return width * height;
 }
 
-// getPerimeter method
+// getPerimeter
 double Rectangle::getPerimeter() {
     return (width + height) * 2;
 }
 
-// getCenter method
+// getCenter
 Point Rectangle::getCenter() {
-    Point newPoint;
-    newPoint.getX();
-    newPoint.getY();
+    double xCenter = getX() + getWidth() / 2;
+    double yCenter = getY() + getHeight() / 2;
 
+    Point newPoint(xCenter, yCenter);
     return newPoint;
 }
 
-// shift method
+// shift
 void Rectangle::shift(double x, double y) {
     height = height + x;
     width = width + y;
 }
 
-// constains method
-//bool Rectangle::constains(Point& p) {
-////    double pointX = x;
-////	double pointY = y;
-////        // This is the piece of code I found
-////	if (pointX >= this->x && pointX <= this->x + this->width &&
-////pointY >= this->y && pointY <= this->y + this->height)
-////		return true;
-////	else
-////		return false;
-//    double x = p.getX();
-//    double y = p.getX();
+// constains
+bool Rectangle::constains(Point& p) {
+    double x = p.getX();
+    double y = p.getX();
 
+    Point p2 = upperLeftVertex;
+    double p2X = p2.getX();
+    double p2Y = p2.getY();
 
-
-//}
+    if(x <= p2X && y <= p2Y)
+        return true;
+    else
+        return false;
+}
