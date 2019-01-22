@@ -66,8 +66,6 @@ public:
      * @return returns true if a room has been visited
      */
     bool isVisited();
-
-
 };
 
 #endif // LOCATION_H
