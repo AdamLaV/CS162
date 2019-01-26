@@ -76,6 +76,6 @@ int main(){
 
         cout << endl;
     }
-    cout << "You emerge safely from the maze!" <<endl;
+    cout << "You emerge safely from the maze!" << endl;
 
 }
