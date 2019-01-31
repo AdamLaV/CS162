@@ -1,3 +1,7 @@
+/**
+  * @brief Assignment 3
+  * @author Daidemang Francis
+  */
 #include <iostream>
 #include <cstdlib>
 #include "Location.h"
@@ -13,10 +17,8 @@ void buildMap(Location allLocations[]){
     allLocations[4] = Location("a collapsed cavern", false);
     allLocations[5] = Location("the shores of an underground lake", false);
     allLocations[6] = Location("a passage to the surface", false);
-    allLocations[7] = Location("the surface", true); //EXIT
+    allLocations[7] = Location("the surface", true);
 
-
-    //SET UP ALL NEIGHBORS FOR EACH LOCATION
     allLocations[0].setNeighbor(NORTH, &allLocations[1]);
     allLocations[0].setNeighbor(EAST, &allLocations[5]);
     allLocations[0].setNeighbor(SOUTH, &allLocations[4]);
@@ -26,15 +28,12 @@ void buildMap(Location allLocations[]){
 
     allLocations[2].setNeighbor(EAST, &allLocations[3]);
     allLocations[2].setNeighbor(SOUTH, &allLocations[5]);
-
     allLocations[3].setNeighbor(SOUTH, &allLocations[6]);
-
 
     allLocations[4].setNeighbor(NORTH, &allLocations[0]);
 
     allLocations[5].setNeighbor(NORTH, &allLocations[2]);
     allLocations[5].setNeighbor(WEST, &allLocations[0]);
-
     allLocations[6].setNeighbor(NORTH, &allLocations[3]);
     allLocations[6].setNeighbor(WEST, &allLocations[7]);
 
@@ -42,25 +41,23 @@ void buildMap(Location allLocations[]){
 
 int main(){
     Location allLocations[NUM_LOCATIONS];
-
     buildMap(allLocations);
 
     Location *currentLocation = &allLocations[0];
-
-    char d;
+    char userInput;
     Direction dir;
     while(!currentLocation->isExit()){
         cout << currentLocation->getDescription() << endl;
         currentLocation->visit();
-        cout << "Which direction you want to go (N S E W): ";
-        cin >> d;
-        d = toupper(d);
-        if(d == 'N' || d == 'E' || d == 'S' || d == 'W'){
-            if(d == 'N')
+        cout << "Enter direction (N S E W): ";
+        cin >> userInput;
+        userInput = toupper(userInput);
+        if(userInput == 'N' || userInput == 'E' || userInput == 'S' || userInput == 'W'){
+            if(userInput == 'N')
                 dir = NORTH;
-            else if(d == 'S')
+            else if(userInput == 'S')
                 dir = SOUTH;
-            else if(d == 'E')
+            else if(userInput == 'E')
                 dir = EAST;
             else
                 dir = WEST;
@@ -68,14 +65,15 @@ int main(){
             if(currentLocation->hasNeighbor(dir))
                 currentLocation = currentLocation->getNeighbor(dir);
             else{
-                cout << "There is no exit in that direction (" << d << ")" << endl;
+                cout << "Not an exit (" << userInput << ")" << endl;
             }
         }
         else
-            cout << "Invalid input!" << endl;
+            cout << userInput << " is invalid!" << endl;
 
         cout << endl;
+        if(currentLocation->isExit() == true) {
+            cout << "You emerge safely from the maze!" << endl;
+        }
     }
-    cout << "You emerge safely from the maze!" << endl;
-
 }
