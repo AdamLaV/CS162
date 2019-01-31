@@ -1,3 +1,7 @@
+/**
+  * @brief Assignment 3 - Header
+  * @author Daidemang Francis
+  */
 #ifndef LOCATION_H
 #define LOCATION_H
 #include <iostream>
@@ -59,13 +63,37 @@ public:
      * @brief isExit
      * @return returns true if this Location is an exit
      */
+
+    /**
+     * @brief setNeighbor stores the indicated location pointer as
+     * the designated neighbor
+     * @param dir
+     * @param neighborLoc
+     */
+    void setNeighbor(Direction dir, Location *neighborLoc);
+
+    /**
+     * @brief isExit
+     * @return returns true if the location is an exit
+     */
     bool isExit();
+
+    /**
+     * @brief visit marks a room as having been visited
+     */
+    void visit();
 
     /**
      * @brief isVisited
      * @return returns true if a room has been visited
      */
     bool isVisited();
+
+private:
+    string name;
+    bool visited;
+    bool exit;
+    Location* neighbors[4];
 };
 
 #endif // LOCATION_H
