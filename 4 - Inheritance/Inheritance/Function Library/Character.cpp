@@ -6,6 +6,7 @@
 
 using namespace std;
 
+
 Character::Character(const std::string& nameVal)
 {
     name = nameVal;
@@ -69,18 +70,15 @@ bool Character::aquire(Item* item)
 
 void Character::equip(int itemNumber)
 {
-    //TODO - Implement
-    Weapon* myWeapon = getWeapon();
-    Armor* myArmor = getArmor();
-    if(inventory[itemNumber] == myWeapon) {
-        weapon = myWeapon;
+    if(inventory[itemNumber] != nullptr) {
+        if(dynamic_cast<Weapon*>(inventory[itemNumber])) {
+            weapon = dynamic_cast<Weapon*>(inventory[itemNumber]);
+        }
+        else if(dynamic_cast<Armor*>(inventory[itemNumber])) {
+            armor = dynamic_cast<Armor*>(inventory[itemNumber]);
+        }
     }
-    else if (inventory[itemNumber] == myArmor) {
-        armor = myArmor;
-    }
-//    else if (inventory[itemNumber] == nullptr ) {
 
-//    }
 }
 
 Weapon* Character::getWeapon()
