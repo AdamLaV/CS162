@@ -41,6 +41,8 @@ Explores OOP, classes, pointers & more...
 ## --------------------------------------------------------------------
 
 #### 5 - Data Management (Week 6)
+
+    covers dynamic persistent memory Allocation 
 #### Memory Management 
 #### Templates
 #### Recursion 
