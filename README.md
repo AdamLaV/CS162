@@ -40,7 +40,7 @@ Explores OOP, classes, pointers & more...
 
 ## --------------------------------------------------------------------
 
-#### Operators 
+#### 5 
 #### Memory Management 
 #### Templates
 #### Recursion 
