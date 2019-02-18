@@ -79,7 +79,7 @@ DNAStrand DNAStrand::operator+(const DNAStrand &other) const {
 // reverse member function
 DNAStrand DNAStrand::reverse() const {
     DNAStrand reversed(length);
-    for(int i = 0; i <= reversed.getLength(); i++) {
+    for(unsigned int i = 0; i <= reversed.getLength(); i++) {
         reversed.bases[i] = bases[length-1 - i];
     }
     return reversed;
