@@ -88,7 +88,7 @@ DNAStrand DNAStrand::reverse() const {
 // getComplement member function
 DNAStrand DNAStrand::getComplement() const {
     DNAStrand complement(length);
-    for(int i = 0;i < length; i++) {
+    for(unsigned int i = 0;i < length; i++) {
         // A's becomes T
         if(bases[i] == 'A')
             complement.bases[i] = 'T';
