@@ -141,7 +141,7 @@ DNAStrand DNAStrand::substr(int start, int length) const {
 // member function findFirstCopyOf
 int DNAStrand::findFirstCopyOf(const DNAStrand &other) const {
     int location = 0;
-    for(int i = 0; i < other.getLength(); i++) {
+    for(unsigned int i = 0; i < other.getLength(); i++) {
         if(other[i] == this->bases[i]) {
             location = i;
         }
