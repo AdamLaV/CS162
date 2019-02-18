@@ -130,7 +130,7 @@ DNAStrand DNAStrand::substr(int start, int length) const {
     }
     DNAStrand DNAstrand(length);
 
-    for(int i = 0; i < length; i++) {
+    for(unsigned int i = 0; i < length; i++) {
         DNAstrand.bases[i] = bases[start + i];
     }
 
