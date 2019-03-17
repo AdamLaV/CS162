@@ -46,7 +46,6 @@ Explores OOP, classes, pointers & more...
 #### Memory Management 
 #### Templates
 #### Recursion 
-#### Graphical User Interface (GUI)
 #### Standard Template Library (STL)
 
 ## Resources
